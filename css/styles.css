@@ -1,0 +1,200 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
+    margin: 0;
+    max-width: 100%;
+}
+
+li {
+list-style-type: none;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+
+ header .logo:hover {
+    color: #212121;
+    cursor: pointer;
+ }
+
+.logo span {
+    color: #2196F3;
+}
+
+header a {
+    color: #212121;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+header a:hover {
+    color: #2196F3;
+}
+
+header a:focus {
+    color: #2196F3;
+}
+
+.header_contacts a {
+    color: #757575;
+}
+
+section h2 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 4.2em;
+    text-align: center;
+}
+
+.list {
+    display: flex;
+    margin: 0;
+}
+
+.main_item {
+    background-color: #2F303A;
+    text-align: center;
+}
+
+.main_item h1 {
+    color: white;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36em;
+}
+
+.main_item button {
+    background: #2196F3;
+    width: 200px;
+    height: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    line-height: 1.88em;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.main_item button:hover {
+    background: #188CE8;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.main_item button:focus {
+    background: #188CE8;
+}
+
+.main_item button:active {
+    background: #188CE8;
+}
+
+.why_me {
+    background: #E5E5E5;
+}
+
+.why_me p {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.6em;
+}
+
+.why_me .secondary_text {
+    color: #757575;
+}
+
+.about_us {
+    background: #E5E5E5;
+}
+
+.about_us img {
+    width: 370px;
+    height: 294px;
+}
+
+.our_team {
+    background: #F5F4FA;
+    text-align: center;
+}
+
+.our_team img {
+    width: 270px;
+    height: 260px;
+}
+
+.our_team .secondary_text {
+    color: #757575;
+    font-size: 16px;
+}
+
+.navigation {
+    text-align: center;
+}
+
+.portfolio_button {
+    width: 128px;
+    height: 38px;
+    background-color: #F5F4FA;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.62em;
+    border-radius: 4px;
+    border: none;
+}
+
+.portfolio_button:hover {
+    background-color: #2196F3;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.portfolio_card img {
+    width: 370px;
+    height: 294px;
+}
+
+.portfolio_card h3 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2em;
+}
+
+.portfolio_card p {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8em;
+}
+
+footer {
+    background-color: #2F303A;
+}
+
+footer .logo {
+    color: #FFFFFF;
+}
+
+footer.logo:hover {
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+footer a {
+    color: #FFFFFF;
+    font-style: normal;
+    text-decoration: none;
+}
+
+address a:hover {
+color: rgba(255, 255, 255, 0.6);
+}
