@@ -5,6 +5,15 @@ body {
     max-width: 100%;
 }
 
+.section {
+    padding: 94px 0;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
 li {
 list-style-type: none;
 }
@@ -53,8 +62,10 @@ section h2 {
 }
 
 .list {
-    display: flex;
     margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 .main_item {
@@ -125,6 +136,12 @@ section h2 {
     text-align: center;
 }
 
+.our_team_column {
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
 .our_team img {
     width: 270px;
     height: 260px;
@@ -137,6 +154,20 @@ section h2 {
 
 .navigation {
     text-align: center;
+    padding-bottom: 50px;
+}
+
+.navigation .list {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation .list li {
+    margin-right: 30px;
+}
+
+.portfolio_cards {
+    padding-top: 0;
 }
 
 .portfolio_button {
@@ -156,6 +187,13 @@ section h2 {
     border: none;
     cursor: pointer;
     transition: 0.5s;
+}
+
+.portfolio_card_list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0;
 }
 
 .portfolio_card img {
