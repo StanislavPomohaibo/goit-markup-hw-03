@@ -18,11 +18,25 @@ li {
 list-style-type: none;
 }
 
+header .header_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_container nav {
+    display: flex;
+}
+
+header .logo {
+    margin: 1em;
+}
+
 .logo {
     font-size: 26px;
     font-weight: 700;
     font-family: 'Raleway', sans-serif;
 }
+
 
  header .logo:hover {
     color: #212121;
@@ -31,6 +45,15 @@ list-style-type: none;
 
 .logo span {
     color: #2196F3;
+}
+
+.header_navigation {
+    display: flex;
+    margin: 2em;
+}
+
+.header_navigation li {
+    margin-right: 50px;
 }
 
 header a {
@@ -49,8 +72,13 @@ header a:focus {
     color: #2196F3;
 }
 
+.header_contacts {
+    margin: 2em;
+}
+
 .header_contacts a {
     color: #757575;
+    margin-left: 50px;
 }
 
 section h2 {
