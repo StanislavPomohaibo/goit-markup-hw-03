@@ -224,22 +224,30 @@ section h2 {
     padding: 0;
 }
 
+.portfolio_card {
+    margin-bottom: 30px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+
 .portfolio_card img {
     width: 370px;
     height: 294px;
 }
 
+.portfolio_card_content {
+    padding: 20px 24px;
+}
+
 .portfolio_card h3 {
     font-size: 18px;
     font-weight: 700;
-    line-height: 2em;
 }
 
 .portfolio_card p {
     color: #757575;
     font-size: 16px;
     font-weight: 400;
-    line-height: 1.8em;
 }
 
 footer {
