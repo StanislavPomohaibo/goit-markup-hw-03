@@ -264,3 +264,11 @@ footer a {
 address a:hover {
 color: rgba(255, 255, 255, 0.6);
 }
+
+.footer_adress ul {
+    padding: 0;
+}
+
+.footer_adress li {
+    padding-bottom: 9px;
+}
