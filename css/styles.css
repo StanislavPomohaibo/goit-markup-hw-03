@@ -12,10 +12,19 @@ body {
 .container {
     width: 1200px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 li {
 list-style-type: none;
+}
+
+.header_section {
+    border: 1px solid #ECECEC;
+}
+
+header .header_section {
+    padding: 24px 0;
 }
 
 header .header_container {
@@ -27,16 +36,15 @@ header .header_container {
     display: flex;
 }
 
-header .logo {
-    margin: 1em;
-}
-
 .logo {
     font-size: 26px;
     font-weight: 700;
     font-family: 'Raleway', sans-serif;
 }
 
+header .logo {
+    margin-right: 93px;
+}
 
  header .logo:hover {
     color: #212121;
@@ -49,7 +57,8 @@ header .logo {
 
 .header_navigation {
     display: flex;
-    margin: 2em;
+    margin: 0;
+    align-items: center;
 }
 
 .header_navigation li {
@@ -73,7 +82,8 @@ header a:focus {
 }
 
 .header_contacts {
-    margin: 2em;
+    align-items: center;
+    display: flex;
 }
 
 .header_contacts a {
@@ -101,11 +111,17 @@ section h2 {
     text-align: center;
 }
 
+.main_item {
+    padding: 200px 0;
+}
+
 .main_item h1 {
     color: white;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36em;
+    letter-spacing: 0.06em;
+    margin: 0 0 40px 0;
 }
 
 .main_item button {
@@ -140,14 +156,21 @@ section h2 {
     background: #E5E5E5;
 }
 
+.why_me_column {
+    width: 370px;
+    margin-right: 30px;
+}
+
 .why_me p {
+    margin-top: 0;
     font-size: 14px;
     font-weight: 700;
-    line-height: 1.6em;
+    line-height: 1.71;
 }
 
 .why_me .secondary_text {
     color: #757575;
+    font-weight: 400;
 }
 
 .about_us {
@@ -162,6 +185,7 @@ section h2 {
 .our_team {
     background: #F5F4FA;
     text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .our_team_column {
@@ -175,14 +199,21 @@ section h2 {
     height: 260px;
 }
 
+.our_team h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
 .our_team .secondary_text {
     color: #757575;
     font-size: 16px;
+    font-weight: 400;
 }
 
 .navigation {
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 94px;
 }
 
 .navigation .list {
@@ -192,10 +223,6 @@ section h2 {
 
 .navigation .list li {
     margin-right: 30px;
-}
-
-.portfolio_cards {
-    padding-top: 0;
 }
 
 .portfolio_button {
@@ -222,6 +249,7 @@ section h2 {
     justify-content: space-evenly;
     flex-wrap: wrap;
     padding: 0;
+    margin: 50px 0 0 0;
 }
 
 .portfolio_card {
@@ -254,6 +282,10 @@ footer {
     background-color: #2F303A;
 }
 
+.footer_section {
+    padding: 60px 0;
+}
+
 footer .logo {
     color: #FFFFFF;
 }
@@ -278,5 +310,5 @@ color: rgba(255, 255, 255, 0.6);
 }
 
 .footer_adress li {
-    padding-bottom: 9px;
+    margin-bottom: 9px;
 }
