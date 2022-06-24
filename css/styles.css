@@ -119,7 +119,7 @@ section h2 {
     color: white;
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.36em;
+    line-height: 1.36;
     letter-spacing: 0.06em;
     margin: 0 0 40px 0;
 }
@@ -154,6 +154,7 @@ section h2 {
 
 .why_me {
     background: #E5E5E5;
+    letter-spacing: 0.03em;
 }
 
 .why_me_column {
@@ -175,6 +176,7 @@ section h2 {
 
 .about_us {
     background: #E5E5E5;
+    padding-top: 0;
 }
 
 .about_us img {
