@@ -194,6 +194,10 @@ section h2 {
     border-radius: 0px 0px 4px 4px;
 }
 
+.our_team_column_content {
+    padding: 30px;
+}
+
 .our_team img {
     width: 270px;
     height: 260px;
@@ -201,6 +205,7 @@ section h2 {
 
 .our_team h3 {
     font-weight: 500;
+    margin-top: 0;
     font-size: 16px;
     line-height: 19px;
 }
@@ -209,6 +214,7 @@ section h2 {
     color: #757575;
     font-size: 16px;
     font-weight: 400;
+    margin-bottom: 0;
 }
 
 .navigation {
