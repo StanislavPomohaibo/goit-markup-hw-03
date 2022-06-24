@@ -316,7 +316,7 @@ footer {
     letter-spacing: 0.03em;
 }
 
-.footer_list:nth-child(1) {
+.footer_adress .fst_link {
     color: #FFFFFF;
 }
 
