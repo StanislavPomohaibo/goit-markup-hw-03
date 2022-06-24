@@ -259,7 +259,7 @@ section h2 {
     flex-wrap: wrap;
     padding: 0;
     margin: 50px 0 0 0;
-    gap: 15px;
+    gap: 30px 25px;
     text-align: left;
 }
 
