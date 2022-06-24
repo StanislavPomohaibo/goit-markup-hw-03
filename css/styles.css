@@ -298,24 +298,30 @@ footer {
     padding: 60px 0;
 }
 
-footer .logo {
+.footer_section .logo {
     color: #FFFFFF;
+    text-decoration: none;
 }
 
-footer.logo:hover {
+.footer_section .logo:hover {
     color: #FFFFFF;
     cursor: pointer;
 }
 
-footer a {
-    color: #FFFFFF;
+.footer_section .link {
+    color: rgba(255, 255, 255, 0.6);;
     font-style: normal;
     text-decoration: none;
     line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.footer_list:nth-child(1) {
+    color: #FFFFFF;
 }
 
 address a:hover {
-color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .footer_adress ul {
