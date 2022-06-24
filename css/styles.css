@@ -246,10 +246,11 @@ section h2 {
 
 .portfolio_card_list {
     display: flex;
-    justify-content: space-evenly;
     flex-wrap: wrap;
     padding: 0;
     margin: 50px 0 0 0;
+    gap: 30px;
+    text-align: left;
 }
 
 .portfolio_card {
@@ -268,6 +269,7 @@ section h2 {
 }
 
 .portfolio_card h3 {
+    margin-top: 0;
     font-size: 18px;
     font-weight: 700;
 }
@@ -276,6 +278,7 @@ section h2 {
     color: #757575;
     font-size: 16px;
     font-weight: 400;
+    margin-bottom: 0;
 }
 
 footer {
