@@ -20,7 +20,7 @@ list-style-type: none;
 }
 
 .header_section {
-    border: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
 }
 
 header .header_section {
@@ -155,7 +155,7 @@ section h2 {
 }
 
 .why_me {
-    background: #E5E5E5;
+    /* background: #E5E5E5; */
     letter-spacing: 0.03em;
 }
 
@@ -168,7 +168,7 @@ section h2 {
     margin-top: 0;
     font-size: 14px;
     font-weight: 700;
-    line-height: 1.14;
+    line-height: 1.71;
 }
 
 .why_me .secondary_text {
@@ -177,7 +177,7 @@ section h2 {
 }
 
 .about_us {
-    background: #E5E5E5;
+    /* background: #E5E5E5; */
     padding-top: 0;
 }
 
@@ -211,7 +211,7 @@ section h2 {
     font-weight: 500;
     margin-top: 0;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.18;
 }
 
 .our_team .secondary_text {
@@ -219,6 +219,7 @@ section h2 {
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 0;
+    line-height: 1.18;
 }
 
 .navigation {
@@ -290,6 +291,7 @@ section h2 {
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 0;
+    line-height: 1.86;
 }
 
 footer {
@@ -328,6 +330,7 @@ address a:hover {
 
 .footer_adress ul {
     padding: 0;
+    margin: 20px 0 0 0; 
 }
 
 .footer_adress li {
