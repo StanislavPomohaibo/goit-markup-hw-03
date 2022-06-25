@@ -58,6 +58,7 @@ header .logo {
 .header_navigation {
     display: flex;
     margin: 0;
+    padding: 0;
     align-items: center;
 }
 
@@ -167,7 +168,7 @@ section h2 {
     margin-top: 0;
     font-size: 14px;
     font-weight: 700;
-    line-height: 1.71;
+    line-height: 1.14;
 }
 
 .why_me .secondary_text {
@@ -243,6 +244,7 @@ section h2 {
     line-height: 1.62;
     border-radius: 4px;
     letter-spacing: 0.03em;
+    padding: 0 22px;
     border: none;
 }
 
@@ -259,13 +261,12 @@ section h2 {
     flex-wrap: wrap;
     padding: 0;
     margin: 50px 0 0 0;
-    gap: 30px 25px;
+    gap: 30px;
     text-align: left;
 }
 
 .portfolio_card {
     background: #FFFFFF;
-    border: 1px solid #EEEEEE;
 }
 
 .portfolio_card img {
@@ -275,6 +276,7 @@ section h2 {
 
 .portfolio_card_content {
     padding: 20px 24px;
+    border: 1px solid #EEEEEE;
 }
 
 .portfolio_card h3 {
@@ -330,4 +332,8 @@ address a:hover {
 
 .footer_adress li {
     margin-bottom: 9px;
+}
+
+.footer_adress li:last-child {
+    margin:0;
 }
